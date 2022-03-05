@@ -1,0 +1,16 @@
+.footer__points{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__points {
+        flex-direction: column;
+    }
+}

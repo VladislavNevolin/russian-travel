@@ -3,7 +3,21 @@
     position: relative;
     margin: 28px auto auto auto;
     min-height: 52px;
-    justify-content: end;
+    justify-content: space-between;
     align-items: flex-end;
     width: calc(100% - 2 * 48px);
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        width: calc(100% - 2 * 24px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin: 16px auto auto auto;
+        width: calc(100% - 2 * 16px);
+        min-height: 42px;
+    }
 }

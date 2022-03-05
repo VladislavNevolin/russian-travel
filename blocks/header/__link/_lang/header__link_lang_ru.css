@@ -1,0 +1,8 @@
+.header__link_lang_ru{
+    margin: auto 18px auto auto;
+    color: white;
+}
+
+.header__link_lang_ru:active{
+    text-decoration: underline;
+}

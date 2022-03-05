@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
     .lead__image{
         margin: 40px auto 8px;
     }
