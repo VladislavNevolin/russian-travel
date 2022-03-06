@@ -1,25 +1,17 @@
 .header__link{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.17;
-    transition: opacity 0.5s ease-in;
-    color: white;
-
-    
 }
 
-.header__link:hover {
-    opacity: 0.3;
-}
-
-@media screen and (max-width: 767px) {
-    .header__link {
+@media screen and (max-width: 767px){
+    .header__link{
         font-size: 18px;
         line-height: 1.11;
     }
 }
+
