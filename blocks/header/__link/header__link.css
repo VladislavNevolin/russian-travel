@@ -8,10 +8,13 @@
     line-height: 1.17;
 }
 
+.header__link:first-of-type{
+    margin: auto 18px auto auto;
+}
+
 @media screen and (max-width: 767px){
     .header__link{
         font-size: 18px;
         line-height: 1.11;
     }
 }
-
